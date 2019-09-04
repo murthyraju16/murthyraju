@@ -67,8 +67,8 @@ void sort_initialize(int** arr, int rows, int cols){
 
 static void sort_swap(int* int1, int* int2){
     int temp;
-    temp=*int1;
-    *int1=*int2;
-    *int2=temp;
+    temp=*int2;
+    *int2=*int1;
+    *int1=temp;
 }
 
